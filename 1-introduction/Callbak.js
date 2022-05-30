@@ -1,5 +1,4 @@
-import React from 'react'
-import axios from 'axios'
+import axios from "axios"
 export default function Callback_async_await() {
 
   /* setTimeout(()=>{ //built-in function
@@ -17,7 +16,7 @@ export default function Callback_async_await() {
 
   //sayHi(() => { console.log("callback hello") })
 
-  /* fetch("https://jsonplaceholder.typicode.com/users	")
+  /* fetch("https://jsonplaceholder.typicode.com/users")
   .then(data => data.json())
   .then(users => console.log(users)) */
 
@@ -61,7 +60,6 @@ export default function Callback_async_await() {
 
   /* async function getData() {
     const users = await fetch("https://jsonplaceholder.typicode.com/users").then(users => users.json())
-    
 
     const post1 = await fetch("https://jsonplaceholder.typicode.com/posts/1").then(post => post.json())
 
@@ -143,11 +141,4 @@ export default function Callback_async_await() {
  /*  Promise.all([getUsers(1),getPost(1)])
   .then(console.log)
   .catch(console.log) */
-
-  return (
-    <div>
-      <div>1_Callback_async-await</div>
-      <div>{/* */}</div>
-    </div>
-  )
 }
